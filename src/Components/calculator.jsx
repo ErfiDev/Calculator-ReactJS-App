@@ -6,8 +6,8 @@ const Calculator = ()=>{
     return(
         <div className="calculator-grid">
             <div className="output">
-                <div data-previous-operand className="previous-operand">125 +</div>
-                <div data-current-operand className="current-operand">515</div>
+                <div data-previous-operand className="previous-operand"></div>
+                <div data-current-operand className="current-operand"></div>
             </div>
                 <button data-all-clear className="span-two">AC</button>
                 <button data-delete>DEL</button>
