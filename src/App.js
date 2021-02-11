@@ -1,11 +1,11 @@
-import React from 'react';
-
+import React,{Fragment} from 'react';
+import Calculator from './Components/calculator';
 
 const App = ()=>{
     return(
-        <div>
-
-        </div>
+        <Fragment>
+            <Calculator />
+        </Fragment>
     );
 }
 
